@@ -1,0 +1,43 @@
+body, nav{
+    background-color: #242e3b;
+}
+.bar{
+    font-family: sans-serif;
+}
+.card{
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px 3px black;
+}
+#addTitle, #addTxt{
+    border: none;
+    border-bottom: 3px solid #2bbbad;
+}
+#addTitle:focus, #addTxt:focus{
+
+}
+input:focus, textarea{
+    outline: none !important;
+    /* text-decoration: none; */
+}
+*:focus{
+    outline: none;
+}
+#addBtn{
+    background-color: #2bbbad;
+    border: 1px solid #2bbbad;
+    border-radius: 10px;
+}
+.card-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 27px;
+}
+#searchBtn{
+    border: 1px solid #2bbbad;
+    color: #2bbbad;
+}
+.btn1{
+    background-color: #2bbbad;
+    border: 1px solid #2bbbad;
+    border-radius: 10px;
+padding: 7px;
+}
